@@ -7,6 +7,7 @@ import sys
 if sys.version_info < (3,1):
     sys.exit("Only Python 3.1 and greater is supported")
 
+
 setup(
     name='dolos',
     version=get_version_string(),
